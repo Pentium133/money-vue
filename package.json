@@ -16,5 +16,8 @@
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "tailwindcss-animate": "^1.0.7"
   }
 }

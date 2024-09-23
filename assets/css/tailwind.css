@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .text-preset-1 {
+    @apply text-[32px] leading-[120%] tracking-[0px];
+  }
+  .text-preset-2 {
+    @apply text-[20px] leading-[120%] tracking-[0px];
+  }
+  .text-preset-3 {
+    @apply text-[16px] leading-[150%] tracking-[0px];
+  }
+  .text-preset-4 {
+    @apply text-[14px] leading-[150%] tracking-[0px];
+  }
+  .text-preset-5 {
+    @apply text-[12px] leading-[150%] tracking-[0px];
+  }
+}

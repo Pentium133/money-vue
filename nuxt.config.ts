@@ -12,4 +12,10 @@ export default defineNuxtConfig({
     config: {},
     viewer: true,
   },
+  googleFonts: {
+    families: {
+      "Public+Sans": [400, 700],
+    },
+    display: "swap",
+  },
 });
