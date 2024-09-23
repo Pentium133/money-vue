@@ -10,6 +10,7 @@ export default {
           100: "#F8F4F0",
           500: "#98908B",
         },
+        green: "#277C78",
       },
       fontFamily: {
         sans: ['"Public Sans"', "sans-serif"],
