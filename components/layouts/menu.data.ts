@@ -13,21 +13,21 @@ export const MENU_ITEMS: IMenyItem[] = [
   {
     name: "Transactions",
     url: "/transactions",
-    icon: "info",
+    icon: "transaction",
   },
   {
     name: "Budget",
     url: "/budget",
-    icon: "contact_mail",
+    icon: "budget",
   },
   {
     name: "Pots",
     url: "/pots",
-    icon: "contact_mail",
+    icon: "pots",
   },
   {
     name: "Recurring Bills",
     url: "/recurring_bills",
-    icon: "contact_mail",
+    icon: "bills",
   },
 ];
