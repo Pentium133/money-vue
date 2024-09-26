@@ -29,11 +29,7 @@
           <UiIndexBudget />
         </UiBlockSecondary>
         <UiBlockSecondary class="flex-1">
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
+          <UiIndexBills />
         </UiBlockSecondary>
       </div>
     </div>
