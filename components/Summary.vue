@@ -15,7 +15,7 @@
       </UiBlockSecondary>
     </div>
 
-    <div class="mb-8 flex flex-col justify-between lg:flex-row">
+    <div class="mb-8 flex flex-col justify-between gap-6 lg:flex-row">
       <div class="flex basis-7/12 flex-col gap-6">
         <UiBlockSecondary class="flex-1">
           <UiIndexPots />
