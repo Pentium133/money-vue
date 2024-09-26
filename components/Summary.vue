@@ -26,18 +26,7 @@
       </div>
       <div class="flex basis-5/12 flex-col gap-6">
         <UiBlockSecondary class="flex-1">
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
-          <p>6437563564636</p>
+          <UiIndexBudget />
         </UiBlockSecondary>
         <UiBlockSecondary class="flex-1">
           <p>6437563564636</p>

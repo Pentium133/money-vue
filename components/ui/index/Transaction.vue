@@ -2,7 +2,7 @@
   <div>
     <div class="mb-5 flex justify-between">
       <h2 class="text-preset-2 font-bold">Transactions</h2>
-      <a class="flex items-center gap-x-3" href="/pots">
+      <a class="flex items-center gap-x-3" href="/transactions">
         <p class="text-preset-4 text-gray-500 hover:text-gray-900">View All</p>
         <svg
           width="12"
