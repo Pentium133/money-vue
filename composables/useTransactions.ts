@@ -1,5 +1,5 @@
 export const useTransactions = () => {
-  const { data, pending, error } = useFetch("/data.json");
+  const { data, pending, error } = useFetch("http://localhost:3000/data.json");
 
   // Извлекаем только ключ transactions
   const transactions = computed(() =>
