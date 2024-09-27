@@ -1,33 +1,25 @@
+<script lang="ts" setup>
+const { transactions, pending, error } = useTransactions();
+</script>
+
 <template>
   <div class="px-10 pt-10">
     <h1 class="text-preset-1 mb-10 font-bold text-gray-800">Transactions</h1>
 
     <UiBlockSecondary class="flex flex-col gap-5">
-      <UiIndexTransactionLine>
-        <template #name>Emma Richardson</template>
-        <template #sum>+$75.50</template>
-        <template #date>19 Aug 2024</template>
-      </UiIndexTransactionLine>
-      <UiIndexTransactionLine>
-        <template #name>Savory Bites Bistro</template>
-        <template #sum>-$55.50</template>
-        <template #date>19 Aug 2024</template>
-      </UiIndexTransactionLine>
-      <UiIndexTransactionLine>
-        <template #name>Daniel Carter</template>
-        <template #sum>-$42.30</template>
-        <template #date>18 Aug 2024</template>
-      </UiIndexTransactionLine>
-      <UiIndexTransactionLine>
-        <template #name>Sun Park</template>
-        <template #sum>+$150.00</template>
-        <template #date>17 Aug 2024</template>
-      </UiIndexTransactionLine>
-      <UiIndexTransactionLine>
-        <template #name>Urban Services Hub</template>
-        <template #sum>-$65.00</template>
-        <template #date>17 Aug 2024</template>
-      </UiIndexTransactionLine>
+      <div v-if="pending">Loading...</div>
+      <div v-if="error">Error loading transactions: {{ error.message }}</div>
+      <div v-if="transactions.length > 0">
+        <UiIndexTransactionLine
+          v-for="transaction in transactions"
+          :key="transaction.name"
+        >
+          <template #name>{{ transaction.name }}</template>
+          <template #sum>{{ transaction.amount }}</template>
+          <template #date>{{ transaction.date }}</template>
+        </UiIndexTransactionLine>
+      </div>
+      <p v-else>No transactions available</p>
     </UiBlockSecondary>
   </div>
 </template>
