@@ -19,31 +19,11 @@
     </button>
 
     <div class="flex space-x-2">
-      <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
-      >
-        1
-      </button>
-      <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
-      >
-        2
-      </button>
-      <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
-      >
-        3
-      </button>
-      <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
-      >
-        4
-      </button>
-      <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
-      >
-        5
-      </button>
+      <button class="page">1</button>
+      <button class="page_active">2</button>
+      <button class="page">3</button>
+      <button class="page">4</button>
+      <button class="page">5</button>
     </div>
 
     <button
@@ -65,3 +45,13 @@
     </button>
   </div>
 </template>
+
+<style scoped>
+.page {
+  @apply bg-white hover:bg-beige-500 hover:text-white text-gray-900 rounded border border-beige-500 px-4 py-2;
+}
+
+.page_active {
+  @apply bg-gray-900 hover:bg-gray-900 hover:text-white hover:cursor-default  text-white rounded border border-gray-900 px-4 py-2;
+}
+</style>
