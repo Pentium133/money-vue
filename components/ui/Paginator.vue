@@ -20,27 +20,27 @@
 
     <div class="flex space-x-2">
       <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:bg-gray-200 hover:text-white"
+        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
       >
         1
       </button>
       <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:bg-gray-200 hover:text-white"
+        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
       >
         2
       </button>
       <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:bg-gray-200 hover:text-white"
+        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
       >
         3
       </button>
       <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:bg-gray-200 hover:text-white"
+        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
       >
         4
       </button>
       <button
-        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:bg-gray-200 hover:text-white"
+        class="rounded border border-beige-500 px-4 py-2 text-gray-700 hover:bg-beige-500 hover:text-white"
       >
         5
       </button>
