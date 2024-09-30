@@ -5,11 +5,13 @@
       <a href="/budget/create" class="button-primary">+ Add New Budget</a>
     </div>
 
-    <div class="flex flex-col gap-5 lg:flex-row">
+    <div class="flex flex-col items-start gap-5 lg:flex-row">
       <UiBlockSecondary class="basis-5/12">
         <UiBudgetChartBlock />
       </UiBlockSecondary>
-      <UiBlockSecondary class="basis-7/12">sdfasdfg</UiBlockSecondary>
+      <div class="basis-7/12">
+        <UiBudgetBlocks />
+      </div>
     </div>
   </div>
 </template>
