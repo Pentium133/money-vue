@@ -1,7 +1,7 @@
 <template>
   <div class="my-4 flex items-center justify-between">
     <button
-      class="text-preset-4 group flex items-center space-x-2 rounded border border-beige-500 px-4 py-2 text-gray-900 hover:bg-beige-500 hover:text-white"
+      class="text-preset-4 group flex items-center space-x-2 rounded border border-beige-500 px-4 py-2 text-gray-900 transition hover:bg-beige-500 hover:text-white"
     >
       <svg
         width="16"
@@ -27,7 +27,7 @@
     </div>
 
     <button
-      class="text-preset-4 group flex items-center space-x-2 rounded border border-beige-500 px-4 py-2 text-gray-900 hover:bg-beige-500 hover:text-white"
+      class="text-preset-4 group flex items-center space-x-2 rounded border border-beige-500 px-4 py-2 text-gray-900 transition hover:bg-beige-500 hover:text-white"
     >
       Next
       <svg
@@ -48,10 +48,10 @@
 
 <style scoped>
 .page {
-  @apply bg-white hover:bg-beige-500 hover:text-white text-gray-900 rounded border border-beige-500 px-4 py-2;
+  @apply transition bg-white hover:bg-beige-500 hover:text-white text-gray-900 rounded border border-beige-500 px-4 py-2;
 }
 
 .page-active {
-  @apply bg-gray-900 hover:bg-gray-900 hover:text-white hover:cursor-default  text-white rounded border border-gray-900 px-4 py-2;
+  @apply transition bg-gray-900 hover:bg-gray-900 hover:text-white hover:cursor-default  text-white rounded border border-gray-900 px-4 py-2;
 }
 </style>
