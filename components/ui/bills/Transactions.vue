@@ -4,7 +4,6 @@ const { transactions, pending, error } = useBills();
 
 <template>
   <div>
-    <div>Transactions</div>
     <table class="min-w-full table-auto border-collapse border-0">
       <thead>
         <tr>
