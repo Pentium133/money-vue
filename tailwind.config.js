@@ -14,6 +14,7 @@ export default {
         cyan: "#82C9D7",
         navy: "#626070",
         yellow: "#F2CDAC",
+        red: "#C94736",
       },
       fontFamily: {
         sans: ['"Public Sans"', "sans-serif"],
@@ -30,6 +31,8 @@ export default {
       },
       spacing: {
         "1/2-gap-6": "calc(50% - 0.75rem)",
+        "1/3-gap-6": "calc(33.333% - 0.75rem)", // Учитываем половину gap для 1/3 ширины
+        "2/3-gap-6": "calc(66.666% - 0.75rem)", // Учитывае
       },
     },
   },
