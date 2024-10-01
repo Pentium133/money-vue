@@ -28,6 +28,9 @@ export default {
         "5/12": "calc(42% - 12px)",
         "7/12": "calc(58% - 12px)",
       },
+      spacing: {
+        "1/2-gap-6": "calc(50% - 0.75rem)",
+      },
     },
   },
   plugins: [animate],

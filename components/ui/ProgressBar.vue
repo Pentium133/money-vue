@@ -1,8 +1,15 @@
 <template>
-  <div class="h-8 w-full rounded border-4 border-beige-100 bg-beige-100">
+  <div
+    class="w-full rounded border-beige-100 bg-beige-100"
+    :style="{ borderWidth: border + 'px' }"
+  >
     <div
       class="h-full rounded"
-      :style="{ width: progress + '%', backgroundColor: color }"
+      :style="{
+        width: progress + '%',
+        backgroundColor: color,
+        height: height + 'px',
+      }"
     ></div>
   </div>
 </template>
@@ -17,6 +24,14 @@ const props = defineProps({
   color: {
     type: String,
     required: true,
+  },
+  height: {
+    type: Number,
+    default: 32, // Значение по умолчанию для высоты (в пикселях)
+  },
+  border: {
+    type: Number,
+    default: 4, // Значение по умолчанию для высоты (в пикселях)
   },
 });
 </script>

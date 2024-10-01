@@ -10,7 +10,7 @@
         <UiBudgetChartBlock />
       </UiBlockSecondary>
       <div class="basis-7/12">
-        <UiBudgetBlocks />
+        <UiBudget />
       </div>
     </div>
   </div>
