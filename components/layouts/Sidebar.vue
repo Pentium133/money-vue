@@ -5,18 +5,11 @@
     <NuxtLink to="/">
       <NuxtImg
         v-if="menuStore.menuExpanded"
-        width="300"
-        class="pl-1"
         height="102"
+        width="300"
         src="/assetss/logo-full.svg"
       />
-      <NuxtImg
-        v-else
-        width="88"
-        height="102"
-        class="pl-1"
-        src="/assetss/logo-mini.svg"
-      />
+      <NuxtImg v-else height="102" width="88" src="/assetss/logo-mini.svg" />
     </NuxtLink>
     <LayoutsSideMenu />
   </aside>

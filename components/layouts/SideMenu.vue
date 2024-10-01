@@ -13,8 +13,8 @@ const getLinkClass = (url: string): string => {
   return computed(() => {
     const isActive = route.path === url;
     return isActive
-      ? "flex items-center gap-x-4 rounded-e-xl border-l-4 border-green bg-beige-100 py-4 pl-7"
-      : "flex items-center gap-x-4 bg-gray-900 py-4 pl-8 text-gray-300 hover:text-gray-100";
+      ? "flex items-center gap-x-4 rounded-e-xl border-l-4 border-green bg-beige-100 py-4 pl-7 transition"
+      : "flex items-center gap-x-4 bg-gray-900 py-4 pl-8 text-gray-300 hover:text-gray-100 transition";
   }).value;
 };
 
@@ -60,7 +60,7 @@ const getImgClass = (url: string): string => {
         @click="menuStore.toggleMenu"
         :class="[
           menuStore.menuExpanded ? 'w-[276px]' : 'w-[76px]',
-          'flex items-center gap-x-4 bg-gray-900 py-4 pl-8 text-gray-300 hover:cursor-pointer hover:text-gray-100',
+          'flex transition items-center gap-x-4 bg-gray-900 py-4 pl-8 text-gray-300 hover:cursor-pointer hover:text-gray-100',
         ]"
       >
         <svg
