@@ -1,3 +1,5 @@
+Вёрстка для https://www.frontendmentor.io/challenges/personal-finance-app-JfjtZgyMt1
+
 # Установка
 
 ```bash
