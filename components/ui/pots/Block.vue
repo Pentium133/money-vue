@@ -14,7 +14,7 @@ const calculateProgress = (total: number, target: number): number => {
 </script>
 
 <template>
-  <UiBlockSecondary class="w-1/2-gap-6">
+  <UiBlockSecondary class="w-full lg:w-1/2-gap-6">
     <div class="mb-8 flex items-center space-x-3">
       <svg
         width="16"
